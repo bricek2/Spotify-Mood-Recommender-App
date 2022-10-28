@@ -161,7 +161,10 @@ if __name__ == '__main__':
     valence = valence / 100
 
     tempo = st.slider("Select a tempo in beats per minute.", 60, 215, step=1)
-
+    
+    import os
+    st.write(os.getcwd)
+    
     df = pd.read_csv('datasets/checkpoint2.csv')
     df.drop(columns=['Unnamed: 0'], inplace=True)
     df = df.drop_duplicates(subset = ['track_name'])
