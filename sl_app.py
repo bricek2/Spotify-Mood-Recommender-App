@@ -1,4 +1,4 @@
-from shutil import which
+
 from turtle import st
 import pandas as pd
 import numpy as np
