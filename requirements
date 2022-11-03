@@ -1,2 +1,2 @@
-scipy sparse
-sklearn pairwise distances
+
+streamlit==1.12.2
